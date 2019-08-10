@@ -1,0 +1,315 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from technica-eg.com/DefaultAr.aspx by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 10 Jun 2017 12:06:36 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head><title>
+
+</title><link href="css/fonts-min-ar.css" rel="stylesheet" type="text/css" /><link href="css/reset-min-ar.css" rel="stylesheet" type="text/css" /><link href="css/stylear.css" rel="stylesheet" type="text/css" />
+
+<script src="../ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+    /*** 
+    Simple jQuery Slideshow Script
+    Released by Jon Raasch (jonraasch.com) under FreeBSD license: free to use or modify, not responsible for anything, etc.  Please link out to me if you like it :)
+    ***/
+
+    function slideSwitch() {
+        var $active = $('#slideshow IMG.active');
+
+        if ($active.length == 0) $active = $('#slideshow IMG:last');
+
+        // use this to pull the images in the order they appear in the markup
+        var $next = $active.next().length ? $active.next()
+        : $('#slideshow IMG:first');
+
+        // uncomment the 3 lines below to pull the images in random order
+
+        // var $sibs  = $active.siblings();
+        //  var rndNum = Math.floor(Math.random() * $sibs.length );
+        // var $next  = $( $sibs[ rndNum ] );
+
+
+        $active.addClass('last-active');
+
+        $next.css({ opacity: 0.0 })
+        .addClass('active')
+        .animate({ opacity: 1.0 }, 3000, function() {
+            $active.removeClass('active last-active');
+        });
+    }
+
+    $(function() {
+        setInterval("slideSwitch()", 6000);
+    });
+
+</script>
+
+
+
+</head>
+<body>
+<form name="form1" method="post" action="http://technica-eg.com/DefaultAr.aspx" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE3NzYxNDU0NDAPZBYCAgMPZBYEAgMPFgIeC18hSXRlbUNvdW50AgQWCGYPZBYEAgEPDxYEHgRUZXh0BQvZhdmGINmG2K3Zhh4LTmF2aWdhdGVVcmwFLH4vQ2F0ZWdvcmllcy5hc3B4P0NhdElkPTEzJmNoaWxkPTAmbWFzdGVyPWFyZGQCAw8WAh8AAgEWAgIBD2QWAgIBDw8WBB8BBQbYudmG2KcfAgUsfi9DYXRlZ29yaWVzLmFzcHg/Q2F0SWQ9MTkmY2hpbGQ9MSZtYXN0ZXI9YXJkZAIBD2QWBAIBDw8WBB8BBRXYqtmD2YrZitmBINmF2LHZg9iy2YofAgUsfi9DYXRlZ29yaWVzLmFzcHg/Q2F0SWQ9NjEmY2hpbGQ9MCZtYXN0ZXI9YXJkZAIDDxYCHwACBhYMAgEPZBYCAgEPDxYEHwEFF9mC2LfYp9i5INin2YTYqNiq2LHZiNmEHwIFLH4vQ2F0ZWdvcmllcy5hc3B4P0NhdElkPTYyJmNoaWxkPTEmbWFzdGVyPWFyZGQCAg9kFgICAQ8PFgQfAQUT2YLYt9in2Lkg2K3Zg9mI2YXZih8CBSx+L0NhdGVnb3JpZXMuYXNweD9DYXRJZD02MyZjaGlsZD0xJm1hc3Rlcj1hcmRkAgMPZBYCAgEPDxYEHwEFCtiv2YjZhNmK2KkfAgUsfi9DYXRlZ29yaWVzLmFzcHg/Q2F0SWQ9NjQmY2hpbGQ9MSZtYXN0ZXI9YXJkZAIED2QWAgIBDw8WBB8BBQ3Yr9mI2LEg2LnYsdi2HwIFLH4vQ2F0ZWdvcmllcy5hc3B4P0NhdElkPTY1JmNoaWxkPTEmbWFzdGVyPWFyZGQCBQ9kFgICAQ8PFgQfAQUX2YLYt9in2Lkg2KfZhNiz2YrYp9it2KkfAgUsfi9DYXRlZ29yaWVzLmFzcHg/Q2F0SWQ9NjYmY2hpbGQ9MSZtYXN0ZXI9YXJkZAIGD2QWAgIBDw8WBB8BBRfYp9mE2YLYt9in2Lkg2KfZhNiu2KfYtR8CBSx+L0NhdGVnb3JpZXMuYXNweD9DYXRJZD02OCZjaGlsZD0xJm1hc3Rlcj1hcmRkAgIPZBYEAgEPDxYEHwEFDtmF2YLYp9mI2YTYp9iqHwIFLH4vQ2F0ZWdvcmllcy5hc3B4P0NhdElkPTU5JmNoaWxkPTAmbWFzdGVyPWFyZGQCAw8WAh8AAgIWBAIBD2QWAgIBDw8WBB8BBQ7Yqti02LfZitio2KfYqh8CBSx+L0NhdGVnb3JpZXMuYXNweD9DYXRJZD02OSZjaGlsZD0xJm1hc3Rlcj1hcmRkAgIPZBYCAgEPDxYEHwEFDtmF2KrZg9in2YXZhNipHwIFLH4vQ2F0ZWdvcmllcy5hc3B4P0NhdElkPTcwJmNoaWxkPTEmbWFzdGVyPWFyZGQCAw9kFgQCAQ8PFgQfAQUP2KfYqti12YQg2KjZhtinHwIFLH4vQ2F0ZWdvcmllcy5hc3B4P0NhdElkPTE4JmNoaWxkPTAmbWFzdGVyPWFyZGQCAw8WAh8AAv////8PZAIJDxYCHwACBBYIZg9kFgICAQ8PFgYeCEltYWdlVXJsBSh+XFNsaWRlckltYWdlXDIwMTQ0NDZfYWZmaW5pdHktZmx5ZXIuanBnHghDc3NDbGFzcwUGYWN0aXZlHgRfIVNCAgJkZAIBD2QWAgIBDw8WAh8DBRZ+XFNsaWRlckltYWdlXEhWQUMuanBnZGQCAg9kFgICAQ8PFgIfAwUgflxTbGlkZXJJbWFnZVxjb29sZmFjdG9yLXdlYi5qcGdkZAIDD2QWAgIBDw8WAh8DBTN+XFNsaWRlckltYWdlXGJlY29tZS1nZW5lcmFsLWNvbnRyYWN0b3ItODAwWDgwMC5qcGdkZGR0U6yLjupAf2ErnYrHpL+pAVJeOw==" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F330500C" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWAwKllsBGAvOUobAKAoznisYGkLn3oApzNEN5gRuAk5cKzAld1SY=" />
+</div>
+<div id="wrapper">
+	<div id="header">
+    	<div id="logo">
+        	<a href="DefaultAr.html"><img src="images/logoar.png" /></a>
+        </div>
+        
+        <a id="HyperLink2" class="eglish_link" href="Default.html">English</a>
+          
+          
+        
+        
+        
+    </div>
+    <div id="main_site">
+    	<div id="menu">
+        	<ul>
+            	
+        	 
+                
+                   <li>
+                       <a id="Repeater1_ctl00_HyperLink1" href="Categoriesd937.html?CatId=13&amp;child=0&amp;master=ar">من نحن</a>
+                       
+                       
+                       <ul class="sub_menu_top">
+                       
+                           <li>
+                         
+                         
+                          <a id="Repeater1_ctl00_Repeater2_ctl01_HyperLink1" href="Categories1053.html?CatId=19&amp;child=1&amp;master=ar">عنا</a>
+                         
+                         
+                           </li>
+                         
+                         
+                         
+                          </ul>
+                         
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                    </li>
+                   
+                   <li>
+                       <a id="Repeater1_ctl01_HyperLink1" href="Categories9088.html?CatId=61&amp;child=0&amp;master=ar">تكييف مركزي</a>
+                       
+                       
+                       <ul class="sub_menu_top">
+                       
+                           <li>
+                         
+                         
+                          <a id="Repeater1_ctl01_Repeater2_ctl01_HyperLink1" href="Categoriesa8a5.html?CatId=62&amp;child=1&amp;master=ar">قطاع البترول</a>
+                         
+                         
+                           </li>
+                         
+                         
+                           <li>
+                         
+                         
+                          <a id="Repeater1_ctl01_Repeater2_ctl02_HyperLink1" href="Categoriesc18e.html?CatId=63&amp;child=1&amp;master=ar">قطاع حكومي</a>
+                         
+                         
+                           </li>
+                         
+                         
+                           <li>
+                         
+                         
+                          <a id="Repeater1_ctl01_Repeater2_ctl03_HyperLink1" href="Categoriesde0e.html?CatId=64&amp;child=1&amp;master=ar">دولية</a>
+                         
+                         
+                           </li>
+                         
+                         
+                           <li>
+                         
+                         
+                          <a id="Repeater1_ctl01_Repeater2_ctl04_HyperLink1" href="Categories98ce.html?CatId=65&amp;child=1&amp;master=ar">دور عرض</a>
+                         
+                         
+                           </li>
+                         
+                         
+                           <li>
+                         
+                         
+                          <a id="Repeater1_ctl01_Repeater2_ctl05_HyperLink1" href="Categories3b7e.html?CatId=66&amp;child=1&amp;master=ar">قطاع السياحة</a>
+                         
+                         
+                           </li>
+                         
+                         
+                           <li>
+                         
+                         
+                          <a id="Repeater1_ctl01_Repeater2_ctl06_HyperLink1" href="Categories87a3.html?CatId=68&amp;child=1&amp;master=ar">القطاع الخاص</a>
+                         
+                         
+                           </li>
+                         
+                         
+                         
+                          </ul>
+                         
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                    </li>
+                   
+                   <li>
+                       <a id="Repeater1_ctl02_HyperLink1" href="Categories68ed.html?CatId=59&amp;child=0&amp;master=ar">مقاولات</a>
+                       
+                       
+                       <ul class="sub_menu_top">
+                       
+                           <li>
+                         
+                         
+                          <a id="Repeater1_ctl02_Repeater2_ctl01_HyperLink1" href="Categoriesc96d.html?CatId=69&amp;child=1&amp;master=ar">تشطيبات</a>
+                         
+                         
+                           </li>
+                         
+                         
+                           <li>
+                         
+                         
+                          <a id="Repeater1_ctl02_Repeater2_ctl02_HyperLink1" href="Categories5164.html?CatId=70&amp;child=1&amp;master=ar">متكاملة</a>
+                         
+                         
+                           </li>
+                         
+                         
+                         
+                          </ul>
+                         
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                    </li>
+                   
+                   <li>
+                       <a id="Repeater1_ctl03_HyperLink1" href="Categories9c04.html?CatId=18&amp;child=0&amp;master=ar">اتصل بنا</a>
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                    </li>
+                   
+        	
+        	
+        	
+            
+            
+            </ul>
+            
+            
+             
+        
+        <div id="search">
+           
+           
+             <input name="Text1" type="text" id="Text1" class="search_text" />
+       
+             <input type="submit" name="Button1" value="بحث" id="Button1" class="search_btn" />
+       
+       
+       
+        </div>
+       
+        
+        </div>
+        
+        	
+        	
+       	
+        	<div id="slideshow"> 
+              
+              
+                
+                
+                  <img id="Repeater3_ctl00_Image1" class="active" src="SliderImage/2014446_affinity-flyer.jpg" style="border-width:0px;" />
+                
+                
+                  <img id="Repeater3_ctl01_Image1" src="SliderImage/HVAC.jpg" style="border-width:0px;" />
+                
+                
+                  <img id="Repeater3_ctl02_Image1" src="SliderImage/coolfactor-web.jpg" style="border-width:0px;" />
+                
+                
+                  <img id="Repeater3_ctl03_Image1" src="SliderImage/become-general-contractor-800X800.jpg" style="border-width:0px;" />
+                
+              
+              
+              
+              
+              
+              
+              
+              
+     </div>
+    </div>
+    <div id="footer">
+    	<div id="site_map">
+        	<ul>
+            	            	          
+
+          
+
+                                               <li> <a id="HyperLink5" href="Categories38ff.html?CatId=18&amp;child=1&amp;f=1&amp;master=ar">find us |</a></li> 
+                                               
+                                               
+                                                                                  <li> <a id="HyperLink4" href="Categories9c04.html?CatId=18&amp;child=0&amp;master=ar">اتصل بنا |</a></li>         
+                                <li>  
+                   <a id="HyperLink3" href="Categoriesd937.html?CatId=13&amp;child=0&amp;master=ar">من نحن </a></li>
+                   
+
+
+                   
+                                                
+            
+            </ul>
+        </div>
+       
+    </div>
+</div>
+</form>
+</body>
+
+<!-- Mirrored from technica-eg.com/DefaultAr.aspx by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 10 Jun 2017 12:06:55 GMT -->
+</html>
